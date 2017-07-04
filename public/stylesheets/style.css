@@ -1,60 +1,69 @@
 body {
   padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-image: url('https://colorado.ourcommunitynow.com/wp-content/uploads/sites/4/2016/12/villandry-pwf-0061home.jpg');
+  background-color: grey;
   /* position:fixed; */
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px;
+  padding-top: 0px;
 }
-.container{
-	margin-top: -43px;
-}
-
-a {
-  color: #00B7FF;
+.img-responsive{
+  height: 91vh;
+  margin: auto;
+  width: 100vw;
+  position: relative;
+  top: 156px;
 }
 .header{
-	font-size: 40px;
+	top: -50em;
 }
-ul{
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
-	position: relative;
-	display: inline-block;
-	top: 0;
-	width: 41%;
-	margin-top: 7px;
-	text-align: center;
-	right: -342px;
-	text-align: center;
-	height: 43px;
+
+.header h1{
+	/* border: 3px solid black; */
+	border-bottom-width: 3px;
+    margin-bottom: 10px;
+    margin-top: -275px;
+    font-family:'Bungee Shade';
+    color:maroon;
+    font-size: 90px;
+    width: -10vw;
+    margin-left: 30px;
+    font-weight: bold;
 }
-li{
-	float: left;
-	border-right: 1px solid #bbb;
+.fa.fa-glass{
+	font-size: 150px;
+	color: beige;
+	margin-left: -1050px;
+	margin-top: -350px;
+
 }
-li:last-child{
-	border-right: none;
+.fa-coffee{
+	font-size: 500px;
+	color: beige;
+	margin-right: -1050px;
+	/* margin-top: -350px; */
+
 }
-li a{
-	display: block;
-	color: white;
-	text-align: center;
-	padding:  14px 16px;
-	text-decoration: none;
+.search{
+  top: -100em;
+  right: -43em;
 }
-li a:hover:not(.active){
-	background-color: lightgray;
+
+.search h1{
+	border: 3px solid red;
 }
-.active{
-	background-color: lightcoral;
+
+.footer{
+	font-size: 30px;
 }
+
+/* ********************************Search Page CSS************************************* */
 
 .main-frame{
 	margin-top: 101px;
 	border: 3px solid gray;
 	background-color: beige;
 	border-radius: 9.5px;
-	line-height: 120px;
+	line-height: 48px;
 }
