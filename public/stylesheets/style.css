@@ -8,41 +8,80 @@ body {
   padding-left: 0px;
   padding-top: 0px;
 }
+#headerNav {
+  position: fixed;
+    top: 0px;
+    left: 0px;
+  /* top: 8px; */
+  /* right: 16px; */
+  /* font-size: 2em; */
+    /* background-color:white; */
+    height: 60px;
+    width: 100%;
+    z-index: 3;
+}
+
+
+.navbar-nav li{
+    display: inline-block;
+    list-style: none;
+    padding: 0px 24px;
+    /* background-color: white; */
+}
+
+#about-link, #events-link, #search-link, #gallery-link, #contact-link{
+  color: black;
+  text-decoration: none;
+  font-family: 'Scope One', serif;
+}
+
+.navbar-brand{
+    top: 8px;
+    left: 8px;
+    font-size: 18px;
+    float: left;
+}
+
+#menu li{
+  font-size: 2em;
+}
+#menu{
+  width: 110vw;
+  margin-top: 1em;
+}
 .img-responsive{
-  height: 91vh;
+  height: 88vh;
   margin: auto;
   width: 100vw;
   position: relative;
-  top: 156px;
-}
-.header{
-	top: -50em;
+  top: 4em;
 }
 
-.header h1{
-	/* border: 3px solid black; */
-	border-bottom-width: 3px;
-    margin-bottom: 10px;
-    margin-top: -275px;
-    font-family:'Bungee Shade';
+.header h2{
+    border-bottom-width: 3px;
+    margin-top: 0em;
+    font-family: 'Scope One';
     color:maroon;
-    font-size: 90px;
+    /* font-size: 2em; */
     width: -10vw;
-    margin-left: 30px;
+    margin-left: -35em;
     font-weight: bold;
 }
-.fa.fa-glass{
-	font-size: 150px;
+
+.fa-glass{
+	font-size: 1em;
 	color: beige;
-	margin-left: -1050px;
-	margin-top: -350px;
+	margin-left: -89.5em;
+	top: -2.5em;
+  position: relative;
 
 }
 .fa-coffee{
-	font-size: 500px;
+	font-size: 1em;
 	color: beige;
-	margin-right: -1050px;
-	/* margin-top: -350px; */
+	right: 30.5em;
+  position: relative;
+  top:1em;
 
 }
 .search{
@@ -55,7 +94,7 @@ body {
 }
 
 .footer{
-	font-size: 30px;
+	font-size: 1em;
 }
 
 /* ********************************Search Page CSS************************************* */
