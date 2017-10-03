@@ -44,18 +44,18 @@ body {
 }
 
 #menu li{
-  font-size: 1.5em;
-  /* border: maroon solid 1px; */
+  font-size: 2em;
 }
+
 #menu{
   width: 110vw;
   margin-top: -5em;
 }
-.img-responsive{
+.img-fluid{
   height: 88vh;
   margin: auto;
-  width: 100vw;
-  position: relative;
+  width: 90em;
+  /* position: relative; */
   top: 0em;
 }
 
@@ -74,26 +74,20 @@ body {
 .fa-glass{
 	font-size: 1em;
 	color: beige;
-	left: -7.5em;
+	left: -2.5em;
 	top: -2.5em;
-  position: relative;
+  position:relative;
 
 }
 .fa-coffee{
 	font-size: 1em;
 	color: beige;
-	right: -8em;
+	right: -3em;
   position: relative;
-  top:1em;
+  top:4.5em;
+  /* right: 80em; */
+  /* top: 3.5em; */
 
-}
-.search{
-  top: -100em;
-  right: -43em;
-}
-
-.search h1{
-	border: 3px solid red;
 }
 
 .footer{
@@ -110,3 +104,12 @@ body {
 	border-radius: 9.5px;
 	line-height: 48px;
 }
+
+/* .search{
+  top: -100em;
+  right: -43em;
+} */
+
+/* .search h1{
+  border: 3px solid red;
+} */
