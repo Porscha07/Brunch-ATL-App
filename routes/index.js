@@ -16,29 +16,29 @@ router.get('/', function(req, res, next) {//home
 router.get('/search', function(req, res, next) {
   res.render('search.ejs', { 
   						
-  						title: 'search',
-  						mainFrameSearch: "Search" 
+  						title: 'Search',
+  						mainFrameSearch: "search" 
   					});
 });
-router.get('/reviews', function(req, res, next) {
-  res.render('index', { 
+router.get('/gallery', function(req, res, next) {
+  res.render('gallery.ejs', { 
   						
-  						title: 'reviews',
-  						mainFrameSearch: "Reviews"
+  						title: 'Gallery',
+  						mainFrameSearch: "gallery"
   					});
 });
-router.get('/events', function(req, res, next) {
-  res.render('index', { 
+router.get('/blog', function(req, res, next) {
+  res.render('blog.ejs', { 
   						
-  						title: 'events',
-  						mainFrameSearch: "Events"
+  						title: 'Blog',
+  						mainFrameSearch: "blog"
   					});
 });
-router.get('/specials', function(req, res, next) {
-  res.render('index', { 
+router.get('/contact', function(req, res, next) {
+  res.render('contact.ejs', { 
   						
-  						title: 'specials',
-  						mainFrameSearch: "Specials"
+  						title: 'Contact',
+  						mainFrameSearch: "contact"
   					});
 });
 
