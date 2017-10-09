@@ -12,6 +12,13 @@ router.get('/', function(req, res, next) {//home
   						mainFrameSearch: "home" 
   					});
 });
+router.get('/about', function(req, res, next) {
+  res.render('about.ejs', { 
+              
+              title: 'About',
+              mainFrameSearch: "about" 
+            });
+});
 
 router.get('/search', function(req, res, next) {
   res.render('search.ejs', { 
