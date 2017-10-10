@@ -143,4 +143,10 @@ body {
 
 
 /* ********************************Contact Page CSS************************************* */
+body{
+  background-color: maroon;
+}
 
+h5,h6{
+  color: beige;
+}
