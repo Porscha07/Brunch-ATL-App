@@ -30,7 +30,7 @@ body {
     /* background-color: white; */
 }
 
-#about-link, #events-link, #search-link, #gallery-link, #contact-link{
+#about-link, #events-link, #blog-link, #search-link, #gallery-link, #contact-link{
   color: black;
   text-decoration: none;
   font-family: 'Scope One', serif;
@@ -54,49 +54,39 @@ body {
 .img-fluid{
   height: 88vh;
   margin: auto;
-  width: 90em;
+  width: 111em;
   /* position: relative; */
   top: 0em;
 }
-
-.header h2{
-    border-bottom-width: 3px;
-    margin-top: 0em;
+ 
+.headerLogo h3{
+    margin-top: 2em;
+    border-bottom-width: 3px; 
     font-family: 'Scope One';
     color:maroon;
     /* font-size: 2em; */
-    width: -10vw;
+    width: 17vw;
     /* margin-left: -35em; */
     font-weight: bold;
     border: solid black 1px;
 }
 
-.fa-glass{
-	font-size: 1em;
-	color: beige;
-	left: -2.5em;
-	top: -2.5em;
-  position:relative;
-
-}
-.fa-coffee{
-	font-size: 1em;
-	color: beige;
-	right: -3em;
-  position: relative;
-  top:4.5em;
-  /* right: 80em; */
-  /* top: 3.5em; */
-
-}
 
 .footer{
-	font-size: 1em;
+	font-size: 1.5em;
   bottom: -1em;
+  text-align: center;
 }
 /* *************************About Page CSS************************************************ */
 
+.container{
+  background-color: beige;
+  text-align: center;
+}
 
+#aboutText{
+  font-size: 1em;
+}
 
 
 /* ********************************Search Page CSS************************************* */
